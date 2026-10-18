@@ -1,14 +1,18 @@
 # Sachin Gangwar — Portfolio
 
-This is a clean, static copy of Sachin Gangwar's production engineering portfolio. It has no previous Git history, GitHub workflows, Jekyll configuration, or third-party build dependencies.
+This is Sachin Gangwar's static production engineering portfolio. It has a fresh Git history connected to `https://github.com/sachinikall/sachinikall.github.io.git`, with no history or workflows from the previous site. It needs no build dependencies.
 
 ## Publish to sachinikall.github.io
 
 Your empty repository is `https://github.com/sachinikall/sachinikall.github.io`.
 
-1. Open the repository, choose **Add file → Upload files**, and upload the **contents** of this folder. Keep `site/style.css` inside the `site` folder. Include `.nojekyll`, `index.html` and `favicon.svg` at the repository root.
-2. Commit the upload to `main`.
-3. Open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/(root)`.
-4. The published address will be `https://sachinikall.github.io/`.
+Git is already installed on this computer and this folder has its first commit on `main`. Open a new PowerShell window and run:
+
+```powershell
+cd "C:\Users\sachin gangawar\OneDrive\Desktop\MyWebsite\sachinikall.github.io"
+git push -u origin main
+```
+
+Sign in to GitHub if prompted. Then open **Settings → Pages** in the repository. Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/(root)`. The published address will be `https://sachinikall.github.io/`.
 
 The site uses relative asset paths. Edit `index.html` to update career and contact information; edit `site/style.css` to change the design.
